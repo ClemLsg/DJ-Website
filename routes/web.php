@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('/dj-{v}', 'CityController@index');
