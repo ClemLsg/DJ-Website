@@ -109,11 +109,19 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-9 column-center">
                 <div class="mlr-minus clearfix pt-40">
-                    <div class="my-img pull-left mobi-mb-50">
-                        <div class="shape">
-                            <img src="{{asset('/pictures/1.png')}}" alt="Mearts">
+                    <div class="col-lg-3">
+                        <div class="my-img pull-left mobi-mb-50 mb-55">
+                            <div class="shape">
+                                <img src="{{asset('/pictures/P1070918-Edit.jpg')}}" alt="Mearts" style="height: 100px;">
+                            </div>
+                        </div>
+                        <div class="my-img pull-left mobi-mb-50">
+                            <div class="shape">
+                                <img src="{{asset('/pictures/P1070918-Edit.jpg')}}" alt="Mearts" style="height: 100px;">
+                            </div>
                         </div>
                     </div>
+
                     <div class="myself">
                         <div class="heading">
                             <h5>Introduction</h5/>
@@ -182,7 +190,7 @@
 <!-- Services Section End -->
 
 <!-- Contact Section Start -->
-<div id="contact" class="contact-area theme-bg section-padding rt-animate" data-rt-offset="215%">
+<div id="contact" class="contact-area theme-bg section-padding rt-animate overlay lighter" data-rt-offset="215%">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
@@ -247,17 +255,17 @@
 </div>
 <!-- Contact Section End -->
 <!-- Divider Start -->
-<div class="divider theme-bg">
+<div class="divider light-bg">
     <hr class="line white">
 </div>
 <!-- Divider End -->
 <!-- Footer Section Start -->
-<footer class="theme-bg ptb-20">
+<footer class="white-bg ptb-20 ">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <div class="copyright pt-10">
-                    <p class="white-color">© Tous droits réservés @Djiin 2018</p>
+                    <p class="theme-color">© Tous droits réservés @Djiin 2018</p>
                 </div>
             </div>
         </div>

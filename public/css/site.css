@@ -798,6 +798,10 @@ h6 {
     background-color: rgba(255,255,255,.5);
 }
 
+.overlay.lighter:before {
+	background-color: rgba(0,0,0,.05);
+}
+
 /* others color overlay
 =================================*/
 .overlay-1:before {
