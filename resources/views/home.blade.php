@@ -10,14 +10,23 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mearts is a Personal Portfolio Template">
-    <meta name="keywords" content="Creative , Personal, Personal Portfolio, Creative Agency template, Creative, Agency, Parallax, parallax template, landing page, material design, Corporate, Business">
-    <meta name="author" content="regaltheme.com">
+    <meta name="description" content="Djiin est un service de DJ et animations pour faire de vos soirées un moment innoubliable">
+    <meta name="keywords" content="DJ, pas cher, annimation, photographie">
+    <meta name="author" content="Djiin">
 
     <title>DJIIN home</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="http://regaltheme.com/tf/onepage/mearts/mearts/assets/img/favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="/pictures/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/pictures/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/pictures/icons/favicon-16x16.png">
+    <link rel="manifest" href="/pictures/icons/site.webmanifest">
+    <link rel="mask-icon" href="/pictures/icons/safari-pinned-tab.svg" color="#f2a658">
+    <link rel="shortcut icon" href="/pictures/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#f2a658">
+    <meta name="msapplication-config" content="/pictures/icons/browserconfig.xml">
+    <meta name="theme-color" content="#f2a658">
 
     <!-- style css -->
     <link rel="stylesheet" href="{{asset("/css/style.css")}}">
@@ -70,7 +79,7 @@
                             <ul>
                                 <li class="active"><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#home">Home</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#about">A propos</a></li>
-                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos perstations</a></li>
+                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#contact">Votre devis</a></li>
                             </ul>
                         </nav>
@@ -92,7 +101,7 @@
                             <h3 class="white-color">Bienvenue chez</h3>
                             <h1 class="white-color">DJIIN</h1>
                             <h4 class="white-color">DJ &amp; Animation</h4>
-                            <p class="white-color">Nous sommes a votre service pour faire de vos soiree un moments innoubliable.</p>
+                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées un moment inoubliable.</p>
                             <a href="#service" class="btn border">Nos prestations</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
                         </div>
@@ -117,7 +126,7 @@
                         </div>
                         <div class="my-img pull-left mobi-mb-50">
                             <div class="shape">
-                                <img src="{{asset('/pictures/P1070918-Edit.jpg')}}" alt="Mearts" style="height: 100px;">
+                                <img src="{{asset('/pictures/P107028405x.png')}}" alt="Mearts" style="height: 100px;">
                             </div>
                         </div>
                     </div>
@@ -126,7 +135,7 @@
                         <div class="heading">
                             <h5>Introduction</h5/>
                             <h1>Qui sommes nous </h1>
-                            <p>Nous sommes des auto entrepreneurs dans le domaine de l'animation et de l'evenmentiel. Musicien mais surtout DJ, nous sommes fans des musiques de tout les horizons ! Notre equipe est principalement compose d'etudiant en ecole d'ingenieur d'environs 20 ans. </p>
+                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel. Musicien, mais surtout DJ. Nous sommes passionnés des musiques de tous les horizons ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
                         </div>
                     </div>
                 </div>
@@ -144,8 +153,8 @@
                 <div class="heading white pl-60 relative">
                     <h5>Prestation  &amp; </h5>
                     <h1>services</h1>
-                    <p>Nous proposons des prestations professionnelle <br>
-                        a travers toute la region normande.</p>
+                    <p>Nous proposons des prestations professionnelles <br>
+                        à travers toute la région normande.</p>
                 </div>
             </div>
         </div>
@@ -197,7 +206,7 @@
                 <div class="heading white mb-75">
                     <h1>Votre devis</h1>
                     <p>Vous pouvez utiliser notre formulaire pour faire votre demande de devis <br>
-                        ou nous contacter directement via mail ou mobile.</p>
+                        où nous contacter directement via mail ou mobile.</p>
                 </div>
             </div>
         </div>
