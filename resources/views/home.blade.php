@@ -14,7 +14,7 @@
     <meta name="keywords" content="Creative , Personal, Personal Portfolio, Creative Agency template, Creative, Agency, Parallax, parallax template, landing page, material design, Corporate, Business">
     <meta name="author" content="regaltheme.com">
 
-    <title>Home Light Version || Mearts</title>
+    <title>DJIIN home</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="http://regaltheme.com/tf/onepage/mearts/mearts/assets/img/favicon.ico">
@@ -56,7 +56,8 @@
             <div class="col-xs-12">
                 <div class="d-flex justify-end">
                     <div class="logo mr-auto">
-                        <a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html"><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.png')}}" alt="Mearts"></a>
+                        <a href=""><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.png')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/logos/Logo_orange.png')}}" alt="Djiin"></a>
                     </div>
                     <div class="mainmenu">
                         <div class="navbar-header">
@@ -92,8 +93,8 @@
                             <h1 class="white-color">DJIIN</h1>
                             <h4 class="white-color">DJ &amp; Animation</h4>
                             <p class="white-color">Nous sommes a votre service pour faire de vos soiree un moments innoubliable.</p>
-                            <a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#work" class="btn border">Nos prestations</a>
-                            <a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#contact" class="btn">Devis gratuit</a>
+                            <a href="#service" class="btn border">Nos prestations</a>
+                            <a href="#contact" class="btn">Devis gratuit</a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +223,7 @@
             </div>
             <div class="col-xs-12 col-sm-8">
                 <div class="contact-form">
-                    <form class="custom-input contact_form" id="contact_form" action="http://regaltheme.com/tf/onepage/mearts/mearts/contact-form.php" method="post" novalidate="novalidate">
+                    <form class="custom-input contact_form" id="contact_form" action="http://djiin.fr/contact-form.php" method="post" novalidate="novalidate">
                         <div class="row">
                             <div class="col-xs-12 col-sm-4 pr-5">
                                 <input type="text" id="contact_name" name="name" placeholder="Nom / Prenom" required="">
@@ -256,20 +257,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <div class="copyright pt-10">
-                    <p class="white-color">© All Right Reserved @Regal Theme 2018</p>
+                    <p class="white-color">© Tous droits réservés @Djiin 2018</p>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 text-right">
-                <div class="social-icon style1 white l-height">
-                    <ul class="clearfix d-inblock">
-                        <li><a href="https://www.facebook.com/regaltheme/" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/regaltheme" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
-                        <li><a href="http://www.linkedin.com/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-                        <li><a href="http://www.instagram.com/" target="_blank"><i class="zmdi zmdi-instagram"></i></a></li>
-                        <li><a href="https://www.pinterest.com/regaltheme/" target="_blank"><i class="zmdi zmdi-pinterest"></i></a></li>
-                    </ul>
-                </div>
-                <!-- Change your social media link -->
             </div>
         </div>
     </div>
@@ -284,7 +273,7 @@
 <!-- Plugins JS -->
 <script src="{{asset('/js/plugins.js')}}"></script>
 <!-- main JS -->
-<script src="{{asset('/js/main.js')}}"></script><a id="scrollUp" href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="zmdi zmdi-chevron-up"></i></a>
+<script src="{{asset('/js/main.js')}}"></script><a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="zmdi zmdi-chevron-up"></i></a>
 
 
 

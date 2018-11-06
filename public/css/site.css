@@ -59,12 +59,12 @@ body {
 }
 
 ::-moz-selection {
-    background: #003663;
+    background: #F2A658;
     text-shadow: none;
 	color:#ffffff;
 }
 ::selection {
-    background: #003663;
+    background: #F2A658;
     text-shadow: none;
 	color:#ffffff;
 }
@@ -113,10 +113,10 @@ a,
 .form-control {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
-/* 
+/*
 [ 2. Typography ]
 ==========================*/
 p{
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6{
 	text-transform:uppercase;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 h1 {
     font-size: 36px;
@@ -166,7 +166,7 @@ h6 {
 	font-weight: 400;
 }
 
-/* 
+/*
 [ 3. Global Classes ]
 ====================================== */
 .poppins{
@@ -195,7 +195,7 @@ h6 {
 	color: #ffffff;
 }
 .theme-color{
-	color: #003663;
+	color: #F2A658;
 }
 .l-height{
 	line-height: 1;
@@ -423,7 +423,7 @@ h6 {
 }
 /* Screen Support */
 @media screen and (max-width: 767px) {
-	
+
 }
 
 /*margin right
@@ -460,7 +460,7 @@ h6 {
 }
 /* Screen Support */
 @media screen and (max-width: 767px) {
-	
+
 }
 
 /*padding-top
@@ -498,7 +498,7 @@ h6 {
 
 /* Screen Support */
 @media screen and (max-width: 767px) {
-	
+
 }
 
 /*padding-bottom
@@ -536,7 +536,7 @@ h6 {
 
 /* Screen Support */
 @media screen and (max-width: 767px) {
-	
+
 }
 
 /*padding top bottom
@@ -632,7 +632,7 @@ h6 {
 
 /* Screen Support */
 @media screen and (max-width: 767px) {
-	
+
 }
 
 /* Padding right
@@ -673,7 +673,7 @@ h6 {
 
 /* Screen Support */
 @media screen and (max-width: 767px) {
-	
+
 }
 
 
@@ -693,7 +693,7 @@ h6 {
     }
 }
 
-/* background color 
+/* background color
 ===============================*/
 .white-bg {
 	background-color: #ffffff;
@@ -708,13 +708,13 @@ h6 {
 	background-color: #141414;
 }
 .theme-bg {
-	background-color: #003663;
+	background-color: #F2A658;
 }
 .bg-color-1 {
 	background-color: #f5f5f5;
 }
 
-/* background image 
+/* background image
 ==================================*/
 .header-bg{
 	background-image: url("/pictures/header.jpg") ;
@@ -731,7 +731,7 @@ h6 {
 	background-repeat: no-repeat;
 }
 .bg-img-2{
-	background-image: url("/pictures/2.jpg") ;
+	background-image: url("/pictures/audio-dj-mix-63703.jpg") ;
 	background-size: cover;
 	background-attachment: scroll;
 	background-position: center center;
@@ -753,7 +753,7 @@ h6 {
 }
 
 
-/* background overlay 
+/* background overlay
 ===================================*/
 .overlay{
 	position:relative;
@@ -774,7 +774,7 @@ h6 {
 	position:relative;
 	z-index:2;
 }
-/* dark overlay 
+/* dark overlay
 ================================*/
 .overlay.dark-1:before {
     background-color: rgba(20,20,20,.85);
@@ -792,23 +792,23 @@ h6 {
     background-color: rgba(0,0,0,.90);
 }
 
-/* light overlay 
+/* light overlay
 ================================*/
 .overlay.light-1:before {
     background-color: rgba(255,255,255,.5);
 }
 
-/* others color overlay 
+/* others color overlay
 =================================*/
 .overlay-1:before {
-    background-color: rgba(0,54,99,.90);
+    background-color: rgba(242,166,88,.90);
 }
 .overlay-2:before {
-    background-color: rgba(0,54,99,.80);
+    background-color: rgba(242,166,88,.80);
 }
 
 
-/*Verticle Aligne Middle 
+/*Verticle Aligne Middle
 --------------------------*/
 .d-table {
     display: table;
@@ -843,7 +843,7 @@ h6 {
 /* Default Button Style
 ------------------------ */
 .btn {
-	background-color: #003663;
+	background-color: #F2A658;
 	border: 0 none;
 	border-radius: 0px;
 	font-size: 13px;
@@ -876,12 +876,12 @@ h6 {
 .btn.sm-btn:focus,
 .btn.sm-btn:hover {
 	color: #ffffff;
-	border-color: #003663;
-	background-color: #003663;
+	border-color: #F2A658;
+	background-color: #F2A658;
 }
 .btn.white {
 	background-color: #ffffff;
-	color: #003663;
+	color: #F2A658;
 	font-size: 14px;
 	height: 48px;
 	letter-spacing: 2px;
@@ -889,7 +889,7 @@ h6 {
 	padding: 0 25px;
 }
 .btn.white:focus {
-	color: #003663;
+	color: #F2A658;
 }
 .btn:hover{
     background-color: #000000;
@@ -897,11 +897,11 @@ h6 {
 .btn i.material-icons {
     font-size: 20px;
 }
-.btn.focus, 
-.btn:focus, 
+.btn.focus,
+.btn:focus,
 .btn:hover {
     color: #ffffff;
-	border-color: #003663;
+	border-color: #F2A658;
 }
 .btn:focus,
 button:focus {
@@ -912,8 +912,8 @@ button:focus {
 	border: 2px solid #ffffff;
 }
 .btn.border:hover{
-	background-color: #003663;
-	border-color: #003663;
+	background-color: #F2A658;
+	border-color: #F2A658;
 }
 
 
@@ -980,7 +980,7 @@ nav ul,
 nav ul li {
     float: none;
 }
-nav ul li:hover, 
+nav ul li:hover,
 nav ul li.active {
     background-color: transparent;
 }
@@ -995,12 +995,12 @@ nav ul a {
 }
 @media only screen and (max-width: 749px) {
     .container {
-        width: 100%; 
+        width: 100%;
     }
 }
 @media only screen and (max-width: 601px) {
     .container {
-         width: 90%; 
+         width: 90%;
     }
 }
 
@@ -1047,7 +1047,7 @@ sub {
 	}
 }
 
-/* Custom Input 
+/* Custom Input
 ----------------------*/
 select {
 	-moz-appearance: none;
@@ -1121,12 +1121,12 @@ textarea:focus {
     text-align: center;
     width: 37px;
     z-index: 2;
-	color: #003663;
+	color: #F2A658;
 }
 
 /* Style One */
 .social-icon.style1 li a::after {
-    background-color: #003663;
+    background-color: #F2A658;
     border-radius: 50%;
     content: "";
     height: 100%;
@@ -1151,12 +1151,12 @@ textarea:focus {
 }
 .social-icon.style1 li a {
     border-radius: 50%;
-	border: 1px solid #003663;
+	border: 1px solid #F2A658;
 	overflow: hidden;
 }
 .social-icon.style1 li a:hover {
     color: #ffffff;
-	border-color: #003663;
+	border-color: #F2A658;
 }
 .white.social-icon.style1 li a {
 	color: #ffffff;
@@ -1166,11 +1166,11 @@ textarea:focus {
     background-color: #ffffff;
 }
 .white.social-icon.style1 li a:hover {
-    color: #003663;
+    color: #F2A658;
 	border-color: transparent;
 }
 
-/* Horizontal Line 
+/* Horizontal Line
 -------------------*/
 .horizontal-line div {
     background: #878787 none repeat scroll 0 0;
@@ -1190,14 +1190,14 @@ textarea:focus {
 }
 
 hr.line {
-	background-color: #003663;
+	background-color: #F2A658;
 	border: 0 none;
 	height: 2px;
 	margin: 0;
 	width: 20px;
 }
 .divider hr.line {
-	background-color: #003663;
+	background-color: #F2A658;
 	width: 100%;
 	height: 1px;
 }
@@ -1296,7 +1296,7 @@ hr.line {
     position: absolute;
     right: 50px;
     top: 2px;
-    background-color: #003663;
+    background-color: #F2A658;
     width: 50px;
 	text-transform: uppercase;
 }
@@ -1326,12 +1326,22 @@ hr.line {
 }
 .header-top.is-sticky .mainmenu a:hover,
 .header-top.is-sticky .mainmenu li.active a{
-    color: #003663;
+    color: #F2A658;
+}
+
+.logoHead-2{
+    display: none;
 }
 
 #active-sticky.is-sticky .logoHead{
-	height: 37px;
+    display: none;
 }
+
+#active-sticky.is-sticky .logoHead-2{
+    display: block;
+    height: 37px;
+}
+
 
 /* Small and Tablet Screen Support */
  @media (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
@@ -1339,7 +1349,7 @@ hr.line {
 		display: block;
 	}
 	.mainmenu nav.navbar-collapse {
-	  background: #003663 none repeat scroll 0 0;
+	  background: #F2A658 none repeat scroll 0 0;
 	  display: block;
 	  opacity: 0;
 	  padding: 15px 0;
@@ -1362,13 +1372,13 @@ hr.line {
 	  margin-bottom: 10px;
 	  padding: 0 15px;
 	}
-	
+
 	#active-sticky.is-sticky {
 	  padding: 10px 0;
 	}
 }
 
- /* Slick Next Prev 
+ /* Slick Next Prev
 ------------------*/
 .slick-arrow {
 	background: #515151 none repeat scroll 0 0;
@@ -1474,7 +1484,7 @@ hr.line {
 }
 
 
-/* 
+/*
 [ 4. Home Version's ]
 ===================================== */
 
@@ -1563,13 +1573,13 @@ span.bar-icon::after {
     width: 5px;
 }
 .exapnd-sidebar::-webkit-scrollbar-track {
-    background: #ffffff; 
+    background: #ffffff;
 }
 .exapnd-sidebar::-webkit-scrollbar-thumb {
-    background: #003663; 
+    background: #F2A658;
 }
 .exapnd-sidebar::-webkit-scrollbar-thumb:hover {
-    background: #000000; 
+    background: #000000;
 }
 
 /* Sidebar Info */
@@ -1597,7 +1607,7 @@ span.bar-icon::after {
     text-transform: lowercase;
 }
 .my-info li h6 a:hover {
-    color: #003663;
+    color: #F2A658;
 }
 .my-info li {
     margin-bottom: 25px;
@@ -1688,7 +1698,7 @@ span.bar-icon::after {
 	margin-left: -20px;
 }
 .about-area .my-img {
-	background-color: #003663;
+	background-color: #F2A658;
 	background-image: url("../img/icons/pattern.png");
 	margin-right: 20px;
 	margin-top: -20px;
@@ -1733,7 +1743,7 @@ span.bar-icon::after {
     margin-bottom: 15px;
 }
 .single-skill h5 {
-    background-color: #003663;
+    background-color: #F2A658;
     color: #ffffff;
     display: table;
     font-weight: 500;
@@ -1773,7 +1783,7 @@ span.bar-icon::after {
 	background-color: #d7d7d7;
 }
 .progress-content {
-	background-color: #003663;
+	background-color: #F2A658;
 	width: 0%; /* Initial value */
 }
 .progress-content,
@@ -1852,7 +1862,7 @@ span.bar-icon::after {
 	color: #3f3f3f;
 }
 .portfolio-menu li::after{
-	background-color: #003663;
+	background-color: #F2A658;
 	bottom: -3px;
 	left: 0;
 }
@@ -2000,7 +2010,7 @@ span.quotes {
     letter-spacing: 1px;
 }
 .single-post .content > a:hover h3{
-    color: #003663;
+    color: #F2A658;
 }
 .single-post .content > p {
     font-weight: 300;
@@ -2042,7 +2052,7 @@ span.quotes {
     letter-spacing: 0.1px;
 }
 
-/* 
+/*
 [ 5. Pages ]
 ===================================== */
 .header-space {
@@ -2083,7 +2093,7 @@ blockquote {
 	color: #c2c2c2;
 }
 .post-details .social-icon li a:hover {
-	border-color: #003663;
+	border-color: #F2A658;
 	color: #ffffff;
 }
 .blog-details .divider hr.line {
@@ -2130,7 +2140,7 @@ blockquote {
     width: 80px;
 }
 .single-comment .text > a:hover {
-    background-color: #003663;
+    background-color: #F2A658;
 }
 .single-comment .text > a i {
     padding-left: 8px;
@@ -2178,7 +2188,7 @@ blockquote {
 
 
 .single-post .content > a:hover h4{
-	color: #003663;
+	color: #F2A658;
 }
 .related-post .angle-shape::after {
 	height: 50px;
@@ -2235,7 +2245,7 @@ body.black-bg{
 }
 .dark-version .post-details .social-icon li a:hover,
 .dark-version .social-icon.style1 li a:hover {
-	border-color: #003663;
+	border-color: #F2A658;
 }
 .dark-version hr.line {
 	background-color: #e2e2e2;
@@ -2268,7 +2278,7 @@ body.black-bg{
 	background-color: #282828;
 }
 .dark-version .single-comment .text > a{
-	background-color: #003663;
+	background-color: #F2A658;
 }
 .dark-version .single-comment .text > a:hover{
 	background-color: #000000;
@@ -2293,9 +2303,9 @@ body.black-bg{
 /* Section Animation */
 @media only screen and (min-width: 961px) {
 	.rt-animate {
-		opacity: 0; 
+		opacity: 0;
 	}
-	.rt-animate-show { 
+	.rt-animate-show {
 		opacity: 1; -webkit-animation: fadeup 0.5s;
 		animation: fadeup 0.5s;
 		-webkit-backface-visibility:hidden;
@@ -2317,11 +2327,11 @@ body.black-bg{
 	}
 }
 
-/* 
+/*
 [ 6. Loding Bar ]
 ===================================*/
 #loading-wrap {
-    background-color: #003663;
+    background-color: #F2A658;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -2360,7 +2370,7 @@ body.black-bg{
 	-webkit-animation-iteration-count: infinite;
 	        animation-iteration-count: infinite;
 	-webkit-animation-fill-mode: backwards;
-	        animation-fill-mode: backwards;  
+	        animation-fill-mode: backwards;
 }
 
 .cp-preloader__letter:nth-child(2):before{
@@ -2449,11 +2459,11 @@ body.black-bg{
   }
 }
 
-/* 
+/*
 [ 7. ScrollUp ]
 ===============*/
 #scrollUp {
-	background-color: #003663;
+	background-color: #F2A658;
 	border-radius: 50%;
 	bottom: 81px;
 	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
@@ -2463,7 +2473,7 @@ body.black-bg{
 	text-align: center;
 	width: 40px;
 }
-#scrollUp i { 
+#scrollUp i {
     color: #ffffff;
     font-size: 28px;
     line-height: 40px;
