@@ -56,7 +56,7 @@
             <div class="col-xs-12">
                 <div class="d-flex justify-end">
                     <div class="logo mr-auto">
-                        <a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html"><img src="{{asset('/pictures/logo.png')}}" alt="Mearts"></a>
+                        <a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html"><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.png')}}" alt="Mearts"></a>
                     </div>
                     <div class="mainmenu">
                         <div class="navbar-header">

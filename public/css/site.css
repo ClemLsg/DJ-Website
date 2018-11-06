@@ -1329,6 +1329,10 @@ hr.line {
     color: #003663;
 }
 
+#active-sticky.is-sticky .logoHead{
+	height: 37px;
+}
+
 /* Small and Tablet Screen Support */
  @media (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
 	.navbar-header{
