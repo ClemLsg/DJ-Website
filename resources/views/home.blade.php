@@ -10,8 +10,9 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Djiin est un service de DJ et animations pour faire de vos soirées un moment innoubliable">
-    <meta name="keywords" content="DJ, pas cher, annimation, photographie">
+    <meta name="description" content="Djiin est un service de DJ et d'animations pour faire de vos soirées un moment innoubliable sur Rouen et partout en Normandie. Nous faisons des mariages, anniversaires ou tout autre event !">
+    <meta name="keywords" content="DJ, pas cher, animation, photographie, souvenir, mariage, anniversaire, rouen, normandie, djiin">
+
     <meta name="author" content="Djiin">
 
     <title>DJIIN home</title>
@@ -79,7 +80,7 @@
                             <ul>
                                 <li class="active"><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#home">Home</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#about">A propos</a></li>
-                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations</a></li>
+                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations sur Rouen</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#contact">Votre devis</a></li>
                             </ul>
                         </nav>
@@ -99,10 +100,10 @@
                     <div class="col-xs-12">
                         <div class="slide-caption mt-100 smooth-scroll">
                             <h3 class="white-color">Bienvenue chez</h3>
-                            <h1 class="white-color">DJIIN</h1>
+                            <h1 class="white-color">DJIIN Rouen</h1>
                             <h4 class="white-color">DJ &amp; Animation</h4>
-                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées un moment inoubliable.</p>
-                            <a href="#service" class="btn border">Nos prestations</a>
+                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées un moment inoubliable sur Rouen et partout en normandie.</p>
+                            <a href="#service" class="btn border">Nos prestations sur Rouen</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
                         </div>
                     </div>
@@ -121,12 +122,12 @@
                     <div class="col-lg-3">
                         <div class="my-img pull-left mobi-mb-50 mb-55">
                             <div class="shape">
-                                <img src="{{asset('/pictures/P1070918-Edit.jpg')}}" alt="Mearts" style="height: 100px;">
+                                <img src="{{asset('/pictures/P1070918-Edit.jpg')}}" alt="Paul Fontaine -- Anniversaire" style="height: 100px;">
                             </div>
                         </div>
                         <div class="my-img pull-left mobi-mb-50">
                             <div class="shape">
-                                <img src="{{asset('/pictures/P107028405x.png')}}" alt="Mearts" style="height: 100px;">
+                                <img src="{{asset('/pictures/P107028405x.png')}}" alt="Clement Lesage -- Mariage" style="height: 100px;">
                             </div>
                         </div>
                     </div>
@@ -135,7 +136,7 @@
                         <div class="heading">
                             <h5>Introduction</h5/>
                             <h1>Qui sommes nous </h1>
-                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel. Musicien, mais surtout DJ. Nous sommes passionnés des musiques de tous les horizons ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
+                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel sur Rouen. Musicien, mais surtout DJ. Nous sommes passionnés des musiques de tous les horizons ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
                         </div>
                     </div>
                 </div>
@@ -152,8 +153,8 @@
             <div class="dt-cell">
                 <div class="heading white pl-60 relative">
                     <h5>Prestation  &amp; </h5>
-                    <h1>services</h1>
-                    <p>Nous proposons des prestations professionnelles <br>
+                    <h1>services sur Rouen</h1>
+                    <p>Nous proposons des prestations professionnelles sur Rouen et <br>
                         à travers toute la région normande.</p>
                 </div>
             </div>
@@ -168,13 +169,13 @@
                             <i class="icon-adjustments"></i>
                             <h5>DJ &amp; Mixing</h5>
                             <hr class="line">
-                            <p class="mt-15">The amics of how users interact with interactive element within a user interface.</p>
+                            <p class="mt-15">Nous vous proposons de mixer des musiques qui vous correspondes et de mettre l'ambiance de vos soirees les plus folles !</p>
                         </div>
                         <div class="single-service">
                             <i class="icon-lightbulb"></i>
                             <h5>Materiel &amp; Lumiere</h5>
                             <hr class="line">
-                            <p class="mt-15">The amics of how users interact with interactive element within a user interface.</p>
+                            <p class="mt-15">Nous apportons lors de nos prestations des equipements professionnel et de qualitees, comprennent sons, lumieres et bien d'autres !</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 pl-20">
@@ -182,13 +183,13 @@
                             <i class="icon-camera"></i>
                             <h5>Drone &amp; Photographie</h5>
                             <hr class="line">
-                            <p class="mt-15">The amics of how users interact with interactive element within a user interface.</p>
+                            <p class="mt-15">Notre photographe creera des souvenirs de votre soiree et la vue par drone offre une nouvelle perspective à un événement déjà magique !</p>
                         </div>
                         <div class="single-service">
                             <i class="icon-gift"></i>
                             <h5>Atelier &amp; Souvenirs</h5>
                             <hr class="line">
-                            <p class="mt-15">The amics of how users interact with interactive element within a user interface.</p>
+                            <p class="mt-15">Nous pouvons organiser des ateliers et cree des souvenirs pour ne jamais oublier cette superbe soiree.</p>
                         </div>
                     </div>
                 </div>
@@ -231,7 +232,7 @@
                         <li>
                             <i class="icon-streetsign"></i>
                             <div class="text">
-                                <p class="white-color">Nous intervenons dans <br>
+                                <p class="white-color">Nous intervenons sur Rouen et dans <br>
                                     toute la region normandie.</p>
                             </div>
                         </li>
