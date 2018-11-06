@@ -186,9 +186,9 @@
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="heading white mb-75">
-                    <h1>Contact Me</h1>
-                    <p>The namics of how users interact with interactive elements within a <br>
-                        user interface flow chart based on container proportion.</p>
+                    <h1>Votre devis</h1>
+                    <p>Vous pouvez utiliser notre formulaire pour faire votre demande de devis <br>
+                        ou nous contacter directement via mail ou mobile.</p>
                 </div>
             </div>
         </div>
@@ -199,22 +199,22 @@
                         <li>
                             <i class="icon-phone"></i>
                             <div class="text">
-                                <a href="tel:+960.1234568900">+960. 123 456 8900</a> <br>
-                                <a href="tel:+8901234569">+890 123 4569</a>
+                                <a href="tel:+33668284505">+33 6 68 28 45 05</a> <br>
+                                <a href="tel:+33781761861">+33 7 81 76 18 61</a> <br>
                             </div>
                         </li>
                         <li>
                             <i class="icon-envelope"></i>
                             <div class="text">
-                                <a href="mailto:web.regaltheme.com">web.regaltheme.com</a> <br>
-                                <a href="mailto:emailadress@andrew.com">emailadress@andrew.com</a>
+                                <a href="mailto:paul.fontaine@viacesi.fr">paul.fontaine@viacesi.fr</a> <br>
+                                <a href="mailto:clement.lesage@viacesi.fr">clement.lesage@viacesi.fr</a>
                             </div>
                         </li>
                         <li>
                             <i class="icon-streetsign"></i>
                             <div class="text">
-                                <p class="white-color">Apartment 4, North St, Florida <br>
-                                    Estern Hall NY, 1203.</p>
+                                <p class="white-color">Nous intervenons dans <br>
+                                    toute la region normandie.</p>
                             </div>
                         </li>
                     </ul>
@@ -225,18 +225,18 @@
                     <form class="custom-input contact_form" id="contact_form" action="http://regaltheme.com/tf/onepage/mearts/mearts/contact-form.php" method="post" novalidate="novalidate">
                         <div class="row">
                             <div class="col-xs-12 col-sm-4 pr-5">
-                                <input type="text" id="contact_name" name="name" placeholder="Your Name" required="">
+                                <input type="text" id="contact_name" name="name" placeholder="Nom / Prenom" required="">
                             </div>
                             <div class="col-xs-12 col-sm-4 pr-5 pl-5">
-                                <input type="email" id="contact_email" name="email" placeholder="Email Address" required="">
+                                <input type="email" id="contact_email" name="email" placeholder="Email" required="">
                             </div>
                             <div class="col-xs-12 col-sm-4 pl-5">
-                                <input type="text" id="contact_subject" name="subject" placeholder="Subject">
+                                <input type="text" id="contact_subject" name="subject" placeholder="Telephone">
                             </div>
                         </div>
-                        <textarea name="message" id="contact_message" rows="2" placeholder="Your Message"></textarea>
-                        <button class="btn white" type="submit" name="submit" id="contact_submit" data-complete-text="Well done!">
-                            Send Message
+                        <textarea name="message" id="contact_message" rows="2" placeholder="Parlez nous de votre evenement et de vos besoins !"></textarea>
+                        <button class="btn white" type="submit" name="submit" id="contact_submit" data-complete-text="Merci, nous vous repondrons dans les plus brefs delais!">
+                            Demander votre devis
                         </button>
                     </form>
                 </div>
