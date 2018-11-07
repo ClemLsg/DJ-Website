@@ -80,7 +80,7 @@
                             <ul>
                                 <li class="active"><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#home">Home</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#about">A propos</a></li>
-                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations sur Rouen</a></li>
+                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations sur {{$ville->name}}</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#contact">Votre devis</a></li>
                             </ul>
                         </nav>
@@ -100,10 +100,10 @@
                     <div class="col-xs-12">
                         <div class="slide-caption mt-100 smooth-scroll">
                             <h3 class="white-color">Bienvenue chez</h3>
-                            <h1 class="white-color">DJIIN Rouen</h1>
+                            <h1 class="white-color">DJIIN {{$ville->name}}</h1>
                             <h4 class="white-color">DJ &amp; Animation</h4>
-                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées (anniversaire, mariage, ect...) un moment inoubliable sur Rouen et partout en normandie.</p>
-                            <a href="#service" class="btn border">Nos prestations sur Rouen</a>
+                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées (anniversaire, mariage, ect...) un moment inoubliable sur {{$ville->name}} et partout en normandie.</p>
+                            <a href="#service" class="btn border">Nos prestations sur {{$ville->name}}</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                         <div class="heading">
                             <h5>Introduction</h5/>
                             <h1>Qui sommes nous </h1>
-                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel sur Rouen. Musicien, mais surtout DJ. Nous sommes passionnés des musiques de tous les horizons ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
+                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel sur {{$ville->name}}. Musicien, mais surtout DJ. Nous sommes passionnés des musiques de tous les horizons ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +153,8 @@
             <div class="dt-cell">
                 <div class="heading white pl-60 relative">
                     <h5>Prestation  &amp; </h5>
-                    <h1>services sur Rouen</h1>
-                    <p>Nous proposons des prestations professionnelles sur Rouen et <br>
+                    <h1>services sur {{$ville->name}}</h1>
+                    <p>Nous proposons des prestations professionnelles sur {{$ville->name}} et <br>
                         à travers toute la région normande. <br> Anniversaire, mariage, reception, etc...</p>
                 </div>
             </div>
@@ -232,7 +232,7 @@
                         <li>
                             <i class="icon-streetsign"></i>
                             <div class="text">
-                                <p class="white-color">Nous intervenons sur Rouen et dans <br>
+                                <p class="white-color">Nous intervenons sur {{$ville->name}} et dans <br>
                                     toute la region normandie.</p>
                             </div>
                         </li>

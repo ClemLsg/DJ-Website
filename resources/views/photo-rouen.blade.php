@@ -92,7 +92,7 @@
 </header>
 <!-- Header Section End -->
 <!-- Slider Section Start -->
-<div class="slider-area height-100 bg-img-1 overlay rt-animate rt-animate-show" data-rt-offset="50%">
+<div class="slider-area height-100 bg-img-1 overlay rt-animate rt-animate-show" data-rt-offset="50%" style="background-image: url('{{asset('/pictures/adult-apple-devices-blur-442573.jpg')}}')">
     <div class="d-table">
         <div class="dt-cell">
             <div class="container">
@@ -147,7 +147,7 @@
 <!-- About Section End -->
 <!-- Services Section Start -->
 <div id="service" class="services-area light-bg ptb-100 relative rt-animate" data-rt-offset="50%">
-    <div class="container-outside bg-img-2">
+    <div class="container-outside bg-img-2" style="background-image: url('{{asset('/pictures/black-and-white-business-camera-326316.jpg')}}')">
         <div class="overlay-shape overlay overlay-1"></div>
         <div class="d-table">
             <div class="dt-cell">

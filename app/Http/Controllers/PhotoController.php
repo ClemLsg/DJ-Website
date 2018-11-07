@@ -5,13 +5,14 @@ namespace App\Http\Controllers;
 use App\Ville;
 use Illuminate\Http\Request;
 
-class CityController extends Controller
+class PhotoController extends Controller
 {
+    //
     public function index($v)
     {
         $ville = Ville::where('name', $v)->first();
         if ($ville){
-            return view('dj-rouen', compact('ville'));
+            return view('photo-rouen', compact('ville'));
         } else {
             return view('home');
         }
