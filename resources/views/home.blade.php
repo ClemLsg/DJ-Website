@@ -6,13 +6,13 @@
  * Time: 08:50
  */
 ?>
+<!Doctype html>
 <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Djiin est un service de DJ et d'animations pour faire de vos soirées un moment innoubliable partout en Normandie. Nous faisons des mariages, anniversaires ou tout autre event !">
     <meta name="keywords" content="DJ, pas cher, animation, photographie, souvenir, mariage, anniversaire, normandie, djiin">
-
     <meta name="author" content="Djiin">
 
     <title>DJIIN home</title>
@@ -33,6 +33,16 @@
     <link rel="stylesheet" href="{{asset("/css/style.css")}}">
     <!-- modernizr js -->
     <script src="{{asset('/js/modernizr-2.8.3.min.js')}}"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128892180-1%22%3E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128892180-1');
+    </script>
 
 </head>
 <body>
@@ -169,13 +179,13 @@
                             <i class="icon-adjustments"></i>
                             <h5>DJ &amp; Mixing</h5>
                             <hr class="line">
-                            <p class="mt-15">Nous vous proposons de mixer des musiques qui vous correspondes et de mettre l'ambiance de vos soirees les plus folles !</p>
+                            <p class="mt-15">Nous vous proposons de mixer des musiques qui vous correspondent et de mettre l'ambiance de vos soirées les plus folles !</p>
                         </div>
                         <div class="single-service">
                             <i class="icon-lightbulb"></i>
                             <h5>Materiel &amp; Lumiere</h5>
                             <hr class="line">
-                            <p class="mt-15">Nous apportons lors de nos prestations des equipements professionnel et de qualitees, comprennent sons, lumieres et bien d'autres !</p>
+                            <p class="mt-15">Nous apportons lors de nos prestations des équipements professionnels et de qualités, comprennent sons, lumières et bien d'autres !</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 pl-20">
@@ -183,13 +193,13 @@
                             <i class="icon-camera"></i>
                             <h5>Drone &amp; Photographie</h5>
                             <hr class="line">
-                            <p class="mt-15">Notre photographe creera des souvenirs de votre soiree et la vue par drone offre une nouvelle perspective à un événement déjà magique !</p>
+                            <p class="mt-15">Notre photographe créera des souvenirs de votre soirée et la vue par drone offre une nouvelle perspective à un événement déjà magique !</p>
                         </div>
                         <div class="single-service">
                             <i class="icon-gift"></i>
                             <h5>Atelier &amp; Souvenirs</h5>
                             <hr class="line">
-                            <p class="mt-15">Nous pouvons organiser des ateliers et cree des souvenirs pour ne jamais oublier cette superbe soiree.</p>
+                            <p class="mt-15">Nous pouvons organiser des ateliers et créer des souvenirs pour ne jamais oublier cette superbe soirée.</p>
                         </div>
                     </div>
                 </div>
@@ -207,7 +217,7 @@
                 <div class="heading white mb-75">
                     <h1>Votre devis</h1>
                     <p>Vous pouvez utiliser notre formulaire pour faire votre demande de devis <br>
-                        où nous contacter directement via mail ou mobile.</p>
+                        ou nous contacter directement via mail ou mobile.</p>
                 </div>
             </div>
         </div>
@@ -241,7 +251,8 @@
             </div>
             <div class="col-xs-12 col-sm-8">
                 <div class="contact-form">
-                    <form class="custom-input contact_form" id="contact_form" action="http://djiin.fr/contact-form.php" method="post" novalidate="novalidate">
+                    <form class="custom-input contact_form" id="contact_form" action="{{route('homecontact')}}" method="post" novalidate="novalidate">
+                        {{ csrf_field() }}
                         <div class="row">
                             <div class="col-xs-12 col-sm-4 pr-5">
                                 <input type="text" id="contact_name" name="name" placeholder="Nom / Prenom" required="">
@@ -250,11 +261,11 @@
                                 <input type="email" id="contact_email" name="email" placeholder="Email" required="">
                             </div>
                             <div class="col-xs-12 col-sm-4 pl-5">
-                                <input type="text" id="contact_subject" name="subject" placeholder="Telephone">
+                                <input type="text" id="contact_subject" name="telephone" placeholder="Telephone">
                             </div>
                         </div>
                         <textarea name="message" id="contact_message" rows="2" placeholder="Parlez nous de votre evenement et de vos besoins !"></textarea>
-                        <button class="btn white" type="submit" name="submit" id="contact_submit" data-complete-text="Merci, nous vous repondrons dans les plus brefs delais!">
+                        <button class="btn white" type="submit" name="submit" id="submit">
                             Demander votre devis
                         </button>
                     </form>
@@ -293,6 +304,11 @@
 <!-- main JS -->
 <script src="{{asset('/js/main.js')}}"></script><a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="zmdi zmdi-chevron-up"></i></a>
 
-
+@if(session()->has('message'))
+    <div class="alert alert-success alert-dismissible" style="position: fixed; top: 0; z-index: 999; width: 100%; text-align: center">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        {{ session()->get('message') }}
+    </div>
+@endif
 
 </body></html>

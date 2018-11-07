@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::post('/contact', 'HomeController@contact')->name('homecontact');
 
 Route::get('/dj-{v}', 'CityController@index');
 
