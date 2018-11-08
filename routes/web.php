@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index')->name('home');
+Route::post('/contact', 'HomeController@contact')->name('homecontact');
+
+Route::get('/dj-{v}', 'CityController@index');
+
+Route::get('/photo-{v}', 'PhotoController@index');
