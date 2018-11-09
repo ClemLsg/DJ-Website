@@ -20,7 +20,7 @@
 
     <!-- favicon -->
 
-    <link rel="apple-touch-icon" sizes="120x120" href="/pictures/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/pictures/icons/apple-touch-icon.jpg">
     <link rel="icon" type="image/png" sizes="32x32" href="/pictures/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/pictures/icons/favicon-16x16.png">
     <link rel="manifest" href="/pictures/icons/site.webmanifest">
@@ -77,8 +77,8 @@
             <div class="col-xs-12">
                 <div class="d-flex justify-end">
                     <div class="logo mr-auto">
-                        <a href=""><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.png')}}" alt="Djiin"></a>
-                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/logos/Logo_orange.png')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead" src="{{asset('/pictures/Logos/Logo_white.png')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/Logos/Logo_orange.jpg')}}" alt="Djiin"></a>
                     </div>
                     <div class="mainmenu">
                         <div class="navbar-header">

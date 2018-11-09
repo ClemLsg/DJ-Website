@@ -76,8 +76,8 @@
             <div class="col-xs-12">
                 <div class="d-flex justify-end">
                     <div class="logo mr-auto">
-                        <a href=""><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.png')}}" alt="Djiin"></a>
-                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/logos/Logo_orange.png')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.jpg')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/logos/Logo_orange.jpg')}}" alt="Djiin"></a>
                     </div>
                     <div class="mainmenu">
                         <div class="navbar-header">
@@ -137,7 +137,7 @@
                         </div>
                         <div class="my-img pull-left mobi-mb-50">
                             <div class="shape">
-                                <img src="{{asset('/pictures/P107028405x.png')}}" alt="Clement Lesage -- Mariage" style="height: 100px;">
+                                <img src="{{asset('/pictures/P107028405x.jpg')}}" alt="Clement Lesage -- Mariage" style="height: 100px;">
                             </div>
                         </div>
                     </div>
