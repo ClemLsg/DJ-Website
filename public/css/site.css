@@ -143,9 +143,9 @@ h1 {
 	color: #111111;
 }
 h2 {
-    font-size: 30px;
-	color: #ffffff;
-	font-weight: 600;
+	font-size: 36px;
+	font-weight: 700;
+	color: #111111;
 }
 h3 {
     font-size: 24px;
@@ -2494,6 +2494,7 @@ body.black-bg{
 		right: 5px;
 	}
 }
+
 
 /*====================================================================
 							[ END ]

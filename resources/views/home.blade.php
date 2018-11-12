@@ -145,7 +145,7 @@
                     <div class="myself">
                         <div class="heading">
                             <h5>Introduction</h5/>
-                            <h1>Qui sommes nous </h1>
+                            <h2>Qui sommes nous </h2>
                             <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel. Musicien, mais surtout DJ. Nous sommes passionnés des musiques de tous les horizons ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
             <div class="dt-cell">
                 <div class="heading white pl-60 relative">
                     <h5>Prestation  &amp; </h5>
-                    <h1>services</h1>
+                    <h2>services</h2>
                     <p>Nous proposons des prestations professionnelles<br>
                         à travers toute la région normande. <br> Anniversaire, mariage, reception, etc...</p>
                 </div>
@@ -215,7 +215,7 @@
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="heading white mb-75">
-                    <h1>Votre devis</h1>
+                    <h2>Votre devis</h2>
                     <p>Vous pouvez utiliser notre formulaire pour faire votre demande de devis <br>
                         ou nous contacter directement via mail ou mobile.</p>
                 </div>
