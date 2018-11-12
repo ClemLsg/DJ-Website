@@ -76,8 +76,8 @@
             <div class="col-xs-12">
                 <div class="d-flex justify-end">
                     <div class="logo mr-auto">
-                        <a href=""><img class="logoHead" src="{{asset('/pictures/logos/Logo_white.jpg')}}" alt="Djiin"></a>
-                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/logos/Logo_orange.jpg')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead" src="{{asset('/pictures/Logos/Logo_white.png')}}" alt="Djiin"></a>
+                        <a href=""><img class="logoHead-2" src="{{asset('/pictures/Logos/Logo_orange.png')}}" alt="Djiin"></a>
                     </div>
                     <div class="mainmenu">
                         <div class="navbar-header">
