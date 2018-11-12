@@ -1,3 +1,4 @@
 User-agent: *
+Sitemap : https://www.djiin.fr/sitemap.xml
+Sitemap : http://www.djiin.fr/sitemap.xml
 Disallow:
-Sitemap : https://djiin.fr/sitemap.xml
