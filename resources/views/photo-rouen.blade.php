@@ -91,7 +91,7 @@
                             <ul>
                                 <li class="active"><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#home">Home</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#about">A propos</a></li>
-                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations sur Rouen</a></li>
+                                <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#service">Nos prestations sur {{$ville->name}}</a></li>
                                 <li><a href="http://regaltheme.com/tf/onepage/mearts/mearts/index.html#contact">Votre devis</a></li>
                             </ul>
                         </nav>
@@ -111,10 +111,10 @@
                     <div class="col-xs-12">
                         <div class="slide-caption mt-100 smooth-scroll">
                             <h3 class="white-color">Bienvenue chez</h3>
-                            <h1 class="white-color">DJIIN Rouen</h1>
+                            <h1 class="white-color">DJIIN {{$ville->name}}</h1>
                             <h4 class="white-color">Photographie &amp; Animation</h4>
-                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées (anniversaire, mariage, ect...) un moment inoubliable sur Rouen et partout en normandie.</p>
-                            <a href="#service" class="btn border">Nos prestations sur Rouen</a>
+                            <p class="white-color">Nous sommes à votre service pour faire de vos soirées (anniversaire, mariage, ect...) un moment inoubliable sur {{$ville->name}} et partout en normandie.</p>
+                            <a href="#service" class="btn border">Nos prestations sur {{$ville->name}}</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                         <li>
                             <i class="icon-streetsign"></i>
                             <div class="text">
-                                <p class="white-color">Nous intervenons sur Rouen et dans <br>
+                                <p class="white-color">Nous intervenons sur {{$ville->name}} et dans <br>
                                     toute la region normandie.</p>
                             </div>
                         </li>
