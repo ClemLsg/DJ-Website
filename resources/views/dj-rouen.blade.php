@@ -16,7 +16,7 @@
 
     <meta name="author" content="Djiin">
 
-    <title>DJIIN home</title>
+    <title>DJIIN, votre service DJ et PHOTO !</title>
 
     <!-- favicon -->
 

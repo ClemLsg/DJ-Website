@@ -15,7 +15,7 @@
     <meta name="keywords" content="DJ, pas cher, animation, photographie, souvenir, mariage, anniversaire, normandie, djiin">
     <meta name="author" content="Djiin">
 
-    <title>DJIIN home</title>
+    <title>DJIIN, votre service DJ et PHOTO !</title>
 
     <!-- favicon -->
 
