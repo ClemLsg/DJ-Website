@@ -147,7 +147,7 @@
                         <div class="heading">
                             <h5>Introduction</h5/>
                             <h2>Qui sommes nous </h2>
-                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel sur Rouen. Photographe et professionnel de la prise de vue aerienne ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
+                            <p>Nous sommes des autos entrepreneurs dans le domaine de l'animation et de l'évènementiel sur {{$ville->name}}. Photographe et professionnel de la prise de vue aerienne ! Notre équipe est principalement composée d'étudiants en école d'ingénieur d'environ 20 ans. </p>
                         </div>
                     </div>
                 </div>
@@ -164,8 +164,8 @@
             <div class="dt-cell">
                 <div class="heading white pl-60 relative">
                     <h5>Prestation  &amp; </h5>
-                    <h2>services sur Rouen</h2>
-                    <p>Nous proposons des prestations professionnelles sur Rouen et <br>
+                    <h2>services sur {{$ville->name}}</h2>
+                    <p>Nous proposons des prestations professionnelles sur {{$ville->name}} et <br>
                         à travers toute la région normande. <br> Anniversaire, mariage, reception, etc...</p>
                 </div>
             </div>
