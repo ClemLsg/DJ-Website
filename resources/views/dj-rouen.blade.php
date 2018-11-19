@@ -34,7 +34,9 @@
     <link rel="stylesheet" href="{{asset("/css/style.css")}}">
     <!-- modernizr js -->
     <script src="{{asset('/js/modernizr-2.8.3.min.js')}}"></script>
-
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128892180-1%22%3E"></script>
     <script>
