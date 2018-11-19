@@ -30,13 +30,14 @@
     <meta name="msapplication-config" content="/pictures/icons/browserconfig.xml">
     <meta name="theme-color" content="#f2a658">
 
+
     <!-- style css -->
     <link rel="stylesheet" href="{{asset("/css/style.css")}}">
     <!-- modernizr js -->
     <script src="{{asset('/js/modernizr-2.8.3.min.js')}}"></script>
     <!-- TrustBox script -->
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-    <!-- End TrustBox script -->
+    <!-- End TrustBox script hello-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128892180-1%22%3E"></script>
     <script>
@@ -114,15 +115,15 @@
                         <div class="slide-caption mt-100 smooth-scroll">
                             <h3 class="white-color">Bienvenue chez</h3>
                             <h1 class="white-color">DJIIN {{$ville->name}}</h1>
-                            <!-- TrustBox widget - Review Collector -->
-                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="52px" data-style-width="100%">
-                                <a href="https://fr.trustpilot.com/review/djiin.fr" target="_blank">Trustpilot</a>
-                            </div>
-                            <!-- End TrustBox widget -->
                             <h4 class="white-color">DJ &amp; Animation</h4>
                             <p class="white-color">Nous sommes à votre service pour faire de vos soirées (anniversaire, mariage, ect...) un moment inoubliable sur {{$ville->name}} et partout en normandie.</p>
                             <a href="#service" class="btn border">Nos prestations sur {{$ville->name}}</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
+                            <!-- TrustBox widget - Micro Review Count -->
+                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="24px" data-style-width="100%" data-theme="light">
+                                <a href="https://fr.trustpilot.com/review/djiin.fr" target="_blank">Trustpilot</a>
+                            </div>
+                            <!-- End TrustBox widget -->
                         </div>
                     </div>
                 </div>
