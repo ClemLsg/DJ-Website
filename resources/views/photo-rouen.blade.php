@@ -59,6 +59,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+
 <div id="loading-wrap" style="display: none;">
     <div class="cp-preloader cp-preloader_type1">
         <span class="cp-preloader__letter" data-preloader="L">L</span>
@@ -119,7 +120,7 @@
                             <a href="#service" class="btn border">Nos prestations sur {{$ville->name}}</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
                             <!-- TrustBox widget - Micro Review Count -->
-                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="24px" data-style-width="100%" data-theme="light">
+                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="24px" data-style-width="100%" data-theme="dark">
                                 <a href="https://fr.trustpilot.com/review/djiin.fr" target="_blank">Trustpilot</a>
                             </div>
                             <!-- End TrustBox widget -->

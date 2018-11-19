@@ -105,7 +105,8 @@
     </div>
 </header>
 <!-- Header Section End -->
-<!-- Slider Section Start -->
+<!-- Slider Section scuscu Start -->
+
 <div class="slider-area height-100 bg-img-1 overlay rt-animate rt-animate-show" data-rt-offset="50%">
     <div class="d-table">
         <div class="dt-cell">
@@ -120,7 +121,7 @@
                             <a href="#service" class="btn border">Nos prestations sur {{$ville->name}}</a>
                             <a href="#contact" class="btn">Devis gratuit</a>
                             <!-- TrustBox widget - Micro Review Count -->
-                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="24px" data-style-width="100%" data-theme="light">
+                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="24px" data-style-width="100%" data-theme="dark">
                                 <a href="https://fr.trustpilot.com/review/djiin.fr" target="_blank">Trustpilot</a>
                             </div>
                             <!-- End TrustBox widget -->
