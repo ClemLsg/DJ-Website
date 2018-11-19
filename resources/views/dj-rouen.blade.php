@@ -114,6 +114,11 @@
                         <div class="slide-caption mt-100 smooth-scroll">
                             <h3 class="white-color">Bienvenue chez</h3>
                             <h1 class="white-color">DJIIN {{$ville->name}}</h1>
+                            <!-- TrustBox widget - Review Collector -->
+                            <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="5beecfcfd3db7b0001a0e67b" data-style-height="52px" data-style-width="100%">
+                                <a href="https://fr.trustpilot.com/review/djiin.fr" target="_blank">Trustpilot</a>
+                            </div>
+                            <!-- End TrustBox widget -->
                             <h4 class="white-color">DJ &amp; Animation</h4>
                             <p class="white-color">Nous sommes à votre service pour faire de vos soirées (anniversaire, mariage, ect...) un moment inoubliable sur {{$ville->name}} et partout en normandie.</p>
                             <a href="#service" class="btn border">Nos prestations sur {{$ville->name}}</a>
